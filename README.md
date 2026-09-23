@@ -26,6 +26,7 @@ server-side. 100+ installs across both stores.
 | Project | What it is | Links |
 | --- | --- | --- |
 | **Letterboxd Toolkit** | Chrome and Firefox extension. Turns a Letterboxd diary into a full stats profile and surfaces friends' ratings on every film page. Three-tier service over a ~30-table normalized PostgreSQL replica of TMDB, typed SQL via Kysely, nothing persisted server-side. | [Site](https://toolkit.nisatech.org) · [Chrome](https://chromewebstore.google.com/detail/letterboxd-toolkit/foidejhgcbffeikhjgjfmnbimddjmjhl) · [Firefox](https://addons.mozilla.org/firefox/addon/letterboxd-toolkit/) |
+| **Cafe Menu** | Ordering for a café, in Persian and right-to-left. Scan the QR at the table, browse 56 items, build a cart, then pay through ZarinPal or at the till with a six-character code. React 19 SPA over a Django REST API and PostgreSQL, in Docker. Staff screen for handing orders over, and a scheduled reconciler that settles the payments customers abandon mid-flow. | [Live demo](https://amirjaz.github.io/cafe-menu-demo/) |
 | **shamsi-calendar** | Persian / Jalali date picker for React, styled to match shadcn/ui with zero config. RTL by default, full WAI-ARIA keyboard navigation, Iranian civil and lunar Hijri holidays built in. TypeScript, SSR-safe. | [![npm](https://img.shields.io/npm/v/shamsi-calendar?style=flat&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/shamsi-calendar) · [GitHub](https://github.com/Amirjaz/Shamsi-Calendar) |
 
 ---
